@@ -110,9 +110,9 @@ group = 't.me/' + str(g)
 #print('\n')
 print(f'{info}{lg} Joining from all accounts...{rs}')
 for account in accounts:
-    api_id = int(account[0])
-    api_hash = str(account[1])
-    phone = str(account[2])
+  api_id = 8253851[ind][0]
+api_hash = 98b83b88535e469e6b554221fa3034b5[ind][1]
+phone = 14417054490[ind][2]
     client = TelegramClient(f'sessions\\{phone}', api_id, api_hash)
     client.connect()
     username = client.get_entity(group)
